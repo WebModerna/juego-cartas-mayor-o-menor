@@ -1,0 +1,65 @@
+.mazoCartas
+    position relative
+    height: auto
+    min-height: auto
+
+    div
+        background #fff url("../img/baraja.png") no-repeat
+        background-size (ancho_mazo / 2) px
+        display inline-block
+        margin 2px
+        height alto_reducido px
+        width ancho_reducido px
+
+        &:hover
+            transform: scale(1.1)
+        
+        &:focus
+        &:active
+            animation 4s fadeOut linear
+
+$oro = 12
+$espada = 12
+$copa = 12
+$basto = 12
+$comodin = 2
+
+for $o in 1..$oro
+    #oro-{$o}
+        background-position-x (-(ancho_reducido * $o ) + (ancho_reducido)) px
+        background-position-y 0px
+
+
+
+for $e in 1..$espada
+    #espada-{$e}
+        background-position-x (-(ancho_reducido * $e ) + (ancho_reducido)) px
+        background-position-y -(alto_reducido * 2) px
+
+
+for $c in 1..$copa
+    #copa-{$c}
+        background-position-x (-(ancho_reducido) * $c + (ancho_reducido)) px
+        background-position-y -(alto_reducido * 1) px
+
+
+for $b in 1..$basto
+    #basto-{$b}
+        background-position-x (-(ancho_reducido) * $b + (ancho_reducido)) px
+        background-position-y -(alto_reducido * 3) px
+
+
+// Los comodines
+#comodin-1
+    background-position-x 0px
+    background-position-y -(alto_reducido) * 4 px
+
+#comodin-2
+    background-position-x (-(ancho_reducido) * 2 - 1) px
+    background-position-y (-(alto_reducido) * 4) px
+
+
+// Parte trasera de una carta
+trasera() 
+    background-position-x (-(ancho_reducido) - 1) px
+    background-position-y (-(alto_reducido) * 4) px

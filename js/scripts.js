@@ -16,8 +16,6 @@ function creacionMazohtml()
             let carta = document.createElement("div");
             carta.setAttribute("id", palos[i]+"-"+(b+1))
             mazoCartas.appendChild(carta);
-            carta.innerText = palos[i] + " - " + (b+1);
-            console.log(carta);
             
             // Controlar que los comodines son menor cantidad de cartas
             if(palos[i] === palos[palos.length-1])
@@ -30,3 +28,9 @@ function creacionMazohtml()
 
 // Escuchadores de eventos.
 document.addEventListener("DOMContentLoaded", creacionMazohtml);
+let aaa = mazoCartas.childNodes;
+aaa.addEventListener("click", marcador);
+function marcador(e)
+{
+    e.target.classList = "zoomOut";
+}
