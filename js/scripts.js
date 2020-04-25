@@ -26,11 +26,11 @@ function creacionMazohtml()
     }
 }
 
-// Escuchadores de eventos.
-document.addEventListener("DOMContentLoaded", creacionMazohtml);
-let aaa = mazoCartas.childNodes;
-aaa.addEventListener("click", marcador);
-function marcador(e)
+const cadenaInicial = ["h", "o", "l", "a"] ;
+let cadenaIvertida = cadenaInicial.reverse();
+let cadenaFinal="";
+for (let i = 0; i < cadenaIvertida.length; i++)
 {
-    e.target.classList = "zoomOut";
+    cadenaFinal.includes(cadenaIvertida[i]);
 }
+console.log(cadenaFinal);
