@@ -28,6 +28,9 @@ $copa = 12
 $basto = 12
 $comodin = 2
 
+// bucles que va creando en forma recursiva cada una de las cartas
+
+
 for $o in 1..$oro
     #oro-{$o}
         background-position-x (-(ancho_reducido * $o ) + (ancho_reducido)) px
@@ -63,3 +66,45 @@ for $b in 1..$basto
     background-position-y (-(alto_reducido) * 4) px
 
 
+
+/* Para una visualiación en teléfonos */
+@media all and (max-width 480px)
+    .mazoCartas
+        div
+            background-size (ancho_mazo / 4) px
+            height (alto_reducido / 2) px
+            width (ancho_reducido / 2) px
+
+    for $o in 1..$oro
+        #oro-{$o}
+            background-position-x (-(ancho_reducido / 2 * $o ) + (ancho_reducido / 2)) px
+            background-position-y 0px
+
+
+
+    for $e in 1..$espada
+        #espada-{$e}
+            background-position-x (-(ancho_reducido / 2 * $e ) + (ancho_reducido / 2)) px
+            background-position-y -(alto_reducido) px
+
+
+    for $c in 1..$copa
+        #copa-{$c}
+            background-position-x (-(ancho_reducido / 2) * $c + (ancho_reducido / 2)) px
+            background-position-y -(alto_reducido / 2) px
+
+
+    for $b in 1..$basto
+        #basto-{$b}
+            background-position-x (-(ancho_reducido / 2) * $b + (ancho_reducido / 2)) px
+            background-position-y -(alto_reducido / 2 * 3) px
+
+
+    // Los comodines
+    #comodin-1
+        background-position-x 0px
+        background-position-y -(alto_reducido / 2) * 4 px
+
+    #comodin-2
+        background-position-x (-(ancho_reducido / 2 ) * 2 - 1) px
+        background-position-y (-(alto_reducido / 2) * 4) px

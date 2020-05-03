@@ -338,13 +338,12 @@ th {
     opacity: 0;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
     filter: alpha(opacity=0);
-    -webkit-transform: scale(0);
-    -moz-transform: scale(0);
-    -o-transform: scale(0);
-    -ms-transform: scale(0);
-    transform: scale(0);
+    -webkit-transform: scale(3);
+    -moz-transform: scale(3);
+    -o-transform: scale(3);
+    -ms-transform: scale(3);
+    transform: scale(3);
     visibility: hidden;
-    display: none !important;
   }
 }
 @-webkit-keyframes zoomOut {
@@ -363,13 +362,12 @@ th {
     opacity: 0;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
     filter: alpha(opacity=0);
-    -webkit-transform: scale(0);
-    -moz-transform: scale(0);
-    -o-transform: scale(0);
-    -ms-transform: scale(0);
-    transform: scale(0);
+    -webkit-transform: scale(3);
+    -moz-transform: scale(3);
+    -o-transform: scale(3);
+    -ms-transform: scale(3);
+    transform: scale(3);
     visibility: hidden;
-    display: none !important;
   }
 }
 @-o-keyframes zoomOut {
@@ -388,13 +386,12 @@ th {
     opacity: 0;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
     filter: alpha(opacity=0);
-    -webkit-transform: scale(0);
-    -moz-transform: scale(0);
-    -o-transform: scale(0);
-    -ms-transform: scale(0);
-    transform: scale(0);
+    -webkit-transform: scale(3);
+    -moz-transform: scale(3);
+    -o-transform: scale(3);
+    -ms-transform: scale(3);
+    transform: scale(3);
     visibility: hidden;
-    display: none !important;
   }
 }
 @keyframes zoomOut {
@@ -413,13 +410,12 @@ th {
     opacity: 0;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
     filter: alpha(opacity=0);
-    -webkit-transform: scale(0);
-    -moz-transform: scale(0);
-    -o-transform: scale(0);
-    -ms-transform: scale(0);
-    transform: scale(0);
+    -webkit-transform: scale(3);
+    -moz-transform: scale(3);
+    -o-transform: scale(3);
+    -ms-transform: scale(3);
+    transform: scale(3);
     visibility: hidden;
-    display: none !important;
   }
 }
 * {
@@ -776,5 +772,214 @@ ol li {
 #comodin-2 {
   background-position-x: -201px;
   background-position-y: -620px;
+}
+@media all and (max-width: 480px) {
+  .mazoCartas div {
+    -webkit-background-size: 600px;
+    -moz-background-size: 600px;
+    background-size: 600px;
+    height: 77.5px;
+    width: 50px;
+  }
+  #oro-1 {
+    background-position-x: 0px;
+    background-position-y: 0px;
+  }
+  #oro-2 {
+    background-position-x: -50px;
+    background-position-y: 0px;
+  }
+  #oro-3 {
+    background-position-x: -100px;
+    background-position-y: 0px;
+  }
+  #oro-4 {
+    background-position-x: -150px;
+    background-position-y: 0px;
+  }
+  #oro-5 {
+    background-position-x: -200px;
+    background-position-y: 0px;
+  }
+  #oro-6 {
+    background-position-x: -250px;
+    background-position-y: 0px;
+  }
+  #oro-7 {
+    background-position-x: -300px;
+    background-position-y: 0px;
+  }
+  #oro-8 {
+    background-position-x: -350px;
+    background-position-y: 0px;
+  }
+  #oro-9 {
+    background-position-x: -400px;
+    background-position-y: 0px;
+  }
+  #oro-10 {
+    background-position-x: -450px;
+    background-position-y: 0px;
+  }
+  #oro-11 {
+    background-position-x: -500px;
+    background-position-y: 0px;
+  }
+  #oro-12 {
+    background-position-x: -550px;
+    background-position-y: 0px;
+  }
+  #espada-1 {
+    background-position-x: 0px;
+    background-position-y: -155px;
+  }
+  #espada-2 {
+    background-position-x: -50px;
+    background-position-y: -155px;
+  }
+  #espada-3 {
+    background-position-x: -100px;
+    background-position-y: -155px;
+  }
+  #espada-4 {
+    background-position-x: -150px;
+    background-position-y: -155px;
+  }
+  #espada-5 {
+    background-position-x: -200px;
+    background-position-y: -155px;
+  }
+  #espada-6 {
+    background-position-x: -250px;
+    background-position-y: -155px;
+  }
+  #espada-7 {
+    background-position-x: -300px;
+    background-position-y: -155px;
+  }
+  #espada-8 {
+    background-position-x: -350px;
+    background-position-y: -155px;
+  }
+  #espada-9 {
+    background-position-x: -400px;
+    background-position-y: -155px;
+  }
+  #espada-10 {
+    background-position-x: -450px;
+    background-position-y: -155px;
+  }
+  #espada-11 {
+    background-position-x: -500px;
+    background-position-y: -155px;
+  }
+  #espada-12 {
+    background-position-x: -550px;
+    background-position-y: -155px;
+  }
+  #copa-1 {
+    background-position-x: 0px;
+    background-position-y: -77.5px;
+  }
+  #copa-2 {
+    background-position-x: -50px;
+    background-position-y: -77.5px;
+  }
+  #copa-3 {
+    background-position-x: -100px;
+    background-position-y: -77.5px;
+  }
+  #copa-4 {
+    background-position-x: -150px;
+    background-position-y: -77.5px;
+  }
+  #copa-5 {
+    background-position-x: -200px;
+    background-position-y: -77.5px;
+  }
+  #copa-6 {
+    background-position-x: -250px;
+    background-position-y: -77.5px;
+  }
+  #copa-7 {
+    background-position-x: -300px;
+    background-position-y: -77.5px;
+  }
+  #copa-8 {
+    background-position-x: -350px;
+    background-position-y: -77.5px;
+  }
+  #copa-9 {
+    background-position-x: -400px;
+    background-position-y: -77.5px;
+  }
+  #copa-10 {
+    background-position-x: -450px;
+    background-position-y: -77.5px;
+  }
+  #copa-11 {
+    background-position-x: -500px;
+    background-position-y: -77.5px;
+  }
+  #copa-12 {
+    background-position-x: -550px;
+    background-position-y: -77.5px;
+  }
+  #basto-1 {
+    background-position-x: 0px;
+    background-position-y: -232.5px;
+  }
+  #basto-2 {
+    background-position-x: -50px;
+    background-position-y: -232.5px;
+  }
+  #basto-3 {
+    background-position-x: -100px;
+    background-position-y: -232.5px;
+  }
+  #basto-4 {
+    background-position-x: -150px;
+    background-position-y: -232.5px;
+  }
+  #basto-5 {
+    background-position-x: -200px;
+    background-position-y: -232.5px;
+  }
+  #basto-6 {
+    background-position-x: -250px;
+    background-position-y: -232.5px;
+  }
+  #basto-7 {
+    background-position-x: -300px;
+    background-position-y: -232.5px;
+  }
+  #basto-8 {
+    background-position-x: -350px;
+    background-position-y: -232.5px;
+  }
+  #basto-9 {
+    background-position-x: -400px;
+    background-position-y: -232.5px;
+  }
+  #basto-10 {
+    background-position-x: -450px;
+    background-position-y: -232.5px;
+  }
+  #basto-11 {
+    background-position-x: -500px;
+    background-position-y: -232.5px;
+  }
+  #basto-12 {
+    background-position-x: -550px;
+    background-position-y: -232.5px;
+  }
+  #comodin-1 {
+    background-position-x: 0px;
+    background-position-y: -310px;
+  }
+  #comodin-2 {
+    background-position-x: -101px;
+    background-position-y: -310px;
+  }
 }
 /*# sourceMappingURL=style.css.map */
