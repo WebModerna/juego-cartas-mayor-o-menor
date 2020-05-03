@@ -19,10 +19,10 @@
 			</h1>
 		</header>
 		<main class="main">
-			<div class="main__pantalla garcando" id="presentacion">
+			<div class="main__pantalla" id="presentacion">
 				<h2>El famoso juego "¿Mayor o Menor?"</h2>
-				<div class="cargando"></div>
-				<h4>Garcando</h4>
+				<div class="garcando"></div>
+				<h4>Garcando <span id="porcentageCaga"></span> </h4>
 			</div>
 			<div class="main__pantalla" id="instrucciones">
 				<h2>Las instrucciones.</h2>
@@ -35,15 +35,16 @@
 					<li>¡Buena Suerte!</li>
 				</ol>
 				<div>
-					<button class="boton boton-1" id="salir">Salir</button>
-					<button class="boton boton-2" id="jugar">Jugar</button>
+					<a class="boton boton-1" type="button" href="#finJuego" id="salir">Salir</a>
+					<a class="boton boton-2" type="button" href="#mazoCartas" id="jugar">Jugar</a>
 				</div>
 			</div>
 			<div class="main__pantalla mazoCartas" id="mazoCartas">
 				<h2>El mazo de cartas</h2>
 			</div>
 			<div class="main__pantalla" id="resultadoProbabilidad">
-				<h3>Cálculo de la probabilidad.</h3>
+				<h3>La probabilidad de que la siguiente carta sea menor o igua a <strong id="cartaQueSalio"></strong> es de un <strong id="numeroProbabilidad"></strong></h3>
+
 			</div>
 			<div class="main__pantalla" id="finJuego">
 				<h2>fin del juego</h2>

@@ -1,9 +1,9 @@
 .mazoCartas
     position relative
-    height: auto
+    height auto
     min-height auto
     transform-style preserve-3d
-    perspective: 600px
+    perspective 600px
     perspective-origin middle
 
     div
@@ -14,13 +14,11 @@
         margin 2px
         height alto_reducido px
         position relative
-        transform all 1s ease-in-out
         width ancho_reducido px
         
         &:hover
-            box-shadow 0px 0px 12px negro
             cursor pointer
-            transform scale(1.1)
+            transform scale(1.05)
 
 $oro = 12
 $espada = 12
@@ -99,7 +97,7 @@ for $b in 1..$basto
             background-position-x (-(ancho_reducido / 2) * $b + (ancho_reducido / 2)) px
             background-position-y -(alto_reducido / 2 * 3) px
 
-
+    
     // Los comodines
     #comodin-1
         background-position-x 0px

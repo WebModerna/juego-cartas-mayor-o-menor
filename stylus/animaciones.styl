@@ -1,33 +1,50 @@
+/* Animaciones utilizadas en el juego */
+
+// El típico: cargando el juego
 .garcando
   animation-name garcando
+  animation-timing-function linear
+  animation-iteration-count 1
+  animation-duration 4s
+  background-color azul_feisbuc
+  height 10px
+  width 100%
 
 @keyframes garcando
   0%
     width 0px
   
   100%
-    width 200px
+    width 100%
 
 
+// Desvanecimiento
 .fadeOut
   animation-name fadeOut
+  animation-timing-function ease-in-out
+  animation-iteration-count 1
+  animation-duration 1s
 
 @keyframes fadeOut
   0%
     opacity 1
     visibility visible
+
   95%
     opacity 1
     visibility visible
+
   100%
     opacity 0
     visibility hidden
-  
 
+
+// Desaparece agrandándose y haciéndose transparente
 .zoomOut
   animation-name zoomOut
-  animation-timing-function: ease 
-  animation-iteration-count: 1
+  animation-timing-function ease-in-out
+  animation-iteration-count 1
+  animation-duration 1s
 
 @keyframes zoomOut
   0%
@@ -36,6 +53,8 @@
     visibility visible
   
   100%
+    margin 0
     opacity 0
-    transform scale(3)
+    transform scale(0)
     visibility hidden
+    width 0
